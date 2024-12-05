@@ -1,0 +1,68 @@
+{
+   
+   
+  "name": "Battleground ",
+  "tree": {
+      "$className": "DataModel",           
+      "ReplicatedStorage": {
+          
+          "$className": "ReplicatedStorage",
+          
+          "Source": {
+              
+              "$path": "src/ReplicatedStorage"
+          },
+          "Packages":{
+              "$path": "Packages"
+          }
+         
+      },
+
+      "ReplicatedFirst": {
+          
+          "$className": "ReplicatedFirst",
+          
+          "Source": {
+              
+              "$path": "src/ReplicatedFirst"
+          },
+          "Packages":{
+              "$path": "Packages"
+          }
+         
+      },
+      
+      "ServerScriptService": {
+          "$className": "ServerScriptService",
+          "Source": {
+              "$path": "src/ServerScriptService"
+          }
+         
+      },
+      "ServerStorage": {
+          "$className": "ServerStorage",
+          "Source": {
+              "$path": "src/ServerStorage"
+          }
+         
+      },
+
+      "StarterPlayer": {
+          "$className": "StarterPlayer",
+          "StarterCharacterScripts": {
+              "$className": "StarterCharacterScripts",
+              "Source": {
+                  "$path": "src/StarterCharacterScripts"
+              }
+          },
+          
+          "StarterPlayerScripts": {
+              "$className": "StarterPlayerScripts",
+              "Source": {
+                  "$path": "src/StarterPlayerScripts"
+              }
+          }
+         
+      }  
+  }
+}
