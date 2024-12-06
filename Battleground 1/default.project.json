@@ -17,20 +17,6 @@
           }
          
       },
-
-      "ReplicatedFirst": {
-          
-          "$className": "ReplicatedFirst",
-          
-          "Source": {
-              
-              "$path": "src/ReplicatedFirst"
-          },
-          "Packages":{
-              "$path": "Packages"
-          }
-         
-      },
       
       "ServerScriptService": {
           "$className": "ServerScriptService",
@@ -49,13 +35,6 @@
 
       "StarterPlayer": {
           "$className": "StarterPlayer",
-          "StarterCharacterScripts": {
-              "$className": "StarterCharacterScripts",
-              "Source": {
-                  "$path": "src/StarterCharacterScripts"
-              }
-          },
-          
           "StarterPlayerScripts": {
               "$className": "StarterPlayerScripts",
               "Source": {
